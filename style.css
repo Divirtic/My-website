@@ -1,0 +1,102 @@
+/* CSS lama */
+body {
+  margin: 0;
+}
+
+.merah {
+  background-color: red;
+  color: white;
+}
+
+.biru {
+  background-color: blue;
+  color: white;
+}
+
+/* CSS tambahan untuk landing page */
+.latar {
+  background-color: #1e3a8a; /* biru gelap */
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.latar {
+  background-color: #1e3a8a;
+}
+.testimoni-card {
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  width: 90%;
+  margin: auto;
+  text-align: left;
+}
+.stars {
+  color: orange;
+  font-size: 20px;
+  text-align: left;
+}
+.btn-orange {
+  background-color: orange;
+  color: white;
+  padding: 16px 32px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+.btn-orange:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+.input-full {
+  width: 100%;
+  padding: 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+.input-full:focus {
+  border-color: #1e3a8a;
+}
+
+textarea.input-full {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.form-kontak {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+}
+.footer-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: orange;
+}
+.social-icon {
+  font-size: 20px;
+  margin-right: 12px;
+  color: white;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  color: orange;
+  transform: scale(1.2);
+}
